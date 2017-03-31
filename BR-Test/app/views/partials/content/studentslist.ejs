@@ -1,0 +1,37 @@
+<article class="studentslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
+  <div class="container">
+    <div class="row">
+        <% students.forEach(function(item) { %>
+        <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
+          <h3 class="studentslist-title"><%= item.title %></h3>
+          <h5 class="studentslist-name"> <a href="/students/<%= item.shortname %>"><%= item.name %></a></h5>
+          <p class="studentslist-info">
+            <a href="/students/<%= item.shortname %>">
+
+              <% if (pageID == 'home') { %>
+                <img class="studentslist-img img-circle" src="/images/students/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+              <% } %>
+
+              <% if (pageID == 'studentList') { %>
+                <img class="studentslist-img img-circle pull-left" src="/images/students/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+              <% } %>
+            </a>
+
+            <% if (pageID == 'studentDetail') { %>
+              <img class="studentslist-img img-responsive pull-left" src="/images/students/<%= item.shortname %>.jpg" alt="Photo of <%= item.name %>"></a>
+            <% } %>
+          </a>
+
+            <% if (pageID !== 'home') { %>
+              <% if (pageID == 'studentList') { %>
+                <%= item.summary %>
+              <% } else { %>
+                <%- item.description %>
+              <% } %>
+            <% } %>
+          </p>
+        </div>
+        <%  }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>
