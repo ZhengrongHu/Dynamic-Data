@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title>Basic Form</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+    <div id="mainForm">
+        <h1>Battle Royale</h1>
+        <form action="" method="post">
+
+            <label for="gamename">What Is Your Favorite Number from 0-10 ?</label>
+            <input type="text" name="gamename" id="gamename e">
+
+            <br>
+            <br>
+
+            <label for="subtitle">Will You Be The Survivor?</label>
+            <input type="text" name="lastname" id="lastname">
+
+            <br>
+            <br>
+
+            <label>Gender:</label>
+            <br>
+            <input type="radio" name="gender" value="male" checked id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+
+
+            <br>
+            <br>
+
+            <label for="Weapons">Weapons</label>
+            <select name="Weapons" id="Weapons">
+                <option value="Swords">Swords</option>
+                <option value="Gun">Gun</option>
+                <option value="Booth">Booth</option>
+                <option value="Flash Light">Flash Light</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="message">Other</label>
+            <br>
+            <textarea name="message" rows="5" cols="30" id="message">
+            Something You Think Will Help You To Survive.
+            </textarea>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+            <br>
+            <input type="checkbox" name="vehicle2" value="Car" disabled> I have a car
+            <br>
+            <input type="checkbox" name="vehicle1" value="Bike" > I will walk
+            <br>
+
+            <br>
+            <br>
+
+            <label for="color">Choose Your Color </label>
+
+            <input type="color" name="favcolor" value="#000000" id="color">
+
+            <br>
+            <br>
+            <label for="range">Your Extraversion Range From 0-10</label>
+
+            <input type="range" name="points" min="0" max="10" id="range">
+
+            <br>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <br>
+
+            <label for="email"> Select images:</label>
+            <br>
+            <input type="file" name="img" multiple>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

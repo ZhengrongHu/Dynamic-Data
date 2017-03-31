@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    font-family: Helvetica Neue;
+}
+
+#mainForm{
+    background-color: grey;
+    width: 1028px;
+    margin: 10 auto;
+    padding: 10px;
+}
+
+#quarters{
+    width: 100%;
+}
+
+#cars{
+    width: 100%;
+}
+
+
+#logo{
+    background-image: url("../images/br.png");
+    width: 270px;
+    height: 200px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title>Battle Royale - Be the Survivor!</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+    <div id="mainForm">
+        <div id="logo"></div>
+
+        <p>Battle Royale is a text adventure game, where you fight to Survive!!!</p>
+
+        <h3>Let's Create Your Fighter!</h3>
+        <form action="" method="post">
+
+            <label for="monsterName">Your Name:</label>
+            <input type="text" name="monsterName" id="monsterName">
+
+            <br>
+            <br>
+
+            <label>Gender:</label>
+            <br>
+            <input type="radio" name="gender" value="male" checked id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">female</label>
+
+
+            <br>
+            <br>
+            
+            <br>
+            <br>
+
+            <label for="Weapons">Weapons</label>
+            <select name="Weapons" id="Weapons">
+                <option value="Swords">Swords</option>
+                <option value="Gun">Gun</option>
+                <option value="Booth">Booth</option>
+                <option value="Flash Light">Flash Light</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="quarters">Living Quarters: </label>
+            <select name="quarters" id="quarters">
+                <option value="cave">Cave</option>
+                <option value="dungeon">Dungeon</option>
+                <option value="forest">Forest</option>
+                <option value="closet">Closet</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="message">Answer Machine Message</label>
+            <br>
+            <textarea name="message" rows="10" cols="30" id="message">I am in the middle of eating...
+            </textarea>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="vehicle1" value="horse"> I have a horse
+            <br>
+            <input type="checkbox" name="vehicle2" value="Car" disabled> I have a magic carpet
+            <br>
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+            <br>
+            <input type="checkbox" name="vehicle2" value="Car" disabled> I have a car
+            <br>
+            <input type="checkbox" name="vehicle1" value="Bike" > I will walk
+            <br>
+
+            <br>
+            <br>
+
+            <label for="color">What's The Color Of Your Blood </label>
+
+            <input type="color" name="favcolor" value="#000000" id="color">
+
+            <br>
+            <br>
+            <label for="range">Your Extraversion Range From 0-10 0-100</label>
+
+            <input type="range" name="points" min="0" max="1000" id="range">
+
+            <br>
+            <br>
+
+
+            <label for="file"> Choose some photos to adorn your Fighter:</label>
+            <br>
+            <input type="file" name="img" multiple>
+
+            <br>
+            <br>
+
+            <label for="email">Login E-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <br>
+
+            <label for="pass">Login Password:</label>
+            <input type="password" name="pass">
+
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
