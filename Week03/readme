@@ -1,0 +1,36 @@
+Step 1: Open Terminal
+Step 2: Direct to the Week03
+Step 3: npm init
+Step 4: npm install hapi --save
+Step 5: run node. app.js at Terminal
+
+Contact the developer if any questions:
+-Zhengrong Hu
+
+
+======Code For Test======
+
+var Hapi = require('hapi');
+
+var server = new Hapi.Server();
+
+server.connection({
+
+host: ' localhost',
+
+port: 1337
+});
+
+server.route({
+method: 'GET’, 
+path: '/Hello Kitty',
+hanlder: function(request, reply){
+reply('Hello How are you?');
+}
+});
+
+sserver.start(function(){
+console.log('Server is running at:' server.info.url);
+});
+
+======Code For Test======
