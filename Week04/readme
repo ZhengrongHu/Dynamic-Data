@@ -1,0 +1,17 @@
+Step 1: Navigate to Week 04
+
+Step 2: npm init
+
+Step 3: npm install — save haps
+
+Step 4: npm install — save inert
+
+Step 5: npm install —save vision
+
+Step 6: npm install — save handlebars
+
+Step 7: Create public>>>image folders for pusheen jpgs..
+
+Step 8: Create View folder for html.
+
+Step 9: node app.js
