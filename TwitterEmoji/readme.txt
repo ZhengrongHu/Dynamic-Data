@@ -1,11 +1,30 @@
+=====Intro=====
+This program is using tweepy to acess twitter api to fetch tweets that related to keywwords(selected from google trned) 
+
+Then the program store the data as JSON files and analyze the data via matplotlib to generate charts. 
+
+Then program counts the counts of different emoji and display the chart accordingly.  
+
+=====How to Install and Run=====
 Step 1: Open Terminal
+
 Step 2: Direct to the TwitterEmoji directory
+
 Step 3: Install python 2.7 (skip if installed)
-	If you have python 3 installed, install homebrew to install python 2 and run 		python2 instead of python @ Step 6
+	If you have python 3 installed, install homebrew to install python 2 and run 		
+	python2 instead of python @ Step 6
+	
 Step 4: Install pip (skip if installed)
+
 Step 5: sudo pip install tweepy 
 	sudo pip install pandas
 	sudo pip install matplotlib
 	sudo pip install emoji
+	
 Step 6: python twitter_emoji.py
+
 Step 7: Enjoy
+
+Contact the developers if any questions:
+-Carson Chen, Zhengrong Hu
+-j.chen9@med.miami.edu, z.hu1@umiami.edu
