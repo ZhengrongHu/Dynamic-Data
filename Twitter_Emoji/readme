@@ -7,8 +7,3 @@ Step 5: pip install tweepy
 	pip install matplotlib
 	pip install emoji
 Step 6: python twitter_emoji.py
-
-Contact the developer if any questions:
--Carson Chen, Zhengrong Hu
--j.chen9@med.miami.edu, z,hu1@umiami.edu
-Note: There is a iusse with Python 3 vs Python 2. Working on the update now. Please wait. 
