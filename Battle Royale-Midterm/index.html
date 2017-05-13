@@ -1,0 +1,188 @@
+<!-- I'm using https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp as a template -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Battle Royale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- bootstrap and jquery files for the bootstrap styles and animations-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <!-- custom styles in the file styles.css-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="image_hover.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- navigation bar at the top-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Battle Royale</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#intro">Intro</a></li>
+          
+          <li class="dropdown" href="#students"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Students<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#students-females">Female</a></li>
+              <li><a href="#students-males">Male</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="logo" class="container-fluid">
+  <img id='brlogo' src="Images/BR-logo.png">
+</div>
+
+<div id="intro" class="container-fluid">
+  <div id='intro-left' class='col-md-6'>
+  	<p>
+	Battle Royale (|バトル・ロワイアル, Batoru Rowaiaru) is a novel written by Japanese author Koushun Takami. It was first published in Japan in April 1999, and it is one of Japan's best-selling and most controversial novels. It later formed the basis for a cult film (which spawned a sequel), and has been adapted as a 15-volume manga series, later adapted into English by Keith Giffen and published by TOKYOPOP, which itself now has a sequel.
+	</p>
+	<p>
+	An English translation of the novel was published in the United States by Viz in February 2003, and has been available in the United Kingdom since July 2006 from Orbit Books. 
+	</p>
+	<p>
+	The Viz book was re-released in 2009 with over 50 new pages, special features (including interviews with the original Japanese author & movie director), and some revised text (cleaning up translation issues mainly).
+	</p>
+	<p>
+	Battle Royale takes place in an alternate timeline; according to the book's prologue, Japan is a police state, known as the Republic of Greater East Asia (大東亜共和国 Dai Tōa Kyōwakoku). From time to time, fifty randomly selected classes of secondary school students are forced to take arms against one another until only one student in each class remains. The program was created, supposedly, as a form of military research, though the outcome of each battle is publicized on local television. A character discovers that the program is not an experiment at all, but a means of terrorizing the population. In theory, after seeing such atrocities, the people will become paranoid and divided, preventing an organized rebellion.
+	</p>
+
+  </div>
+  <div id='intro-middle' class='col-md-3'>
+  	<img id='brintro' src="Images/BR-intro.jpg">
+  </div>
+  <div id='intro-right' class='col-md-3'>
+  	<p>
+  	42 9th graders are sent to a deserted island. They are given a map, food, and various weapons. An explosive collar is fitted around their neck. If they break a rule, the collar explodes. Their mission: kill each other and be the last one standing. The last survivor is allowed to leave the island. If there is more than one survivor, the collars explode and kill them all.
+  	</p>
+  </div>
+</div>
+
+<!--end intro-->
+
+<div id="students" class="container-fluid">
+ <ul class="gallery">
+  <li><a><img src="Images/BR-class-photo.jpg"/><span class="name">Students</span></a></li>
+</ul>
+<div id="students-females" class="container-fluid">
+ <h1>Female Students</h1>
+ <br/>
+ <div class='row'>
+ <div class='col-md-4'>
+ 	<img class='profilepic' src='Images/G01_Mizuho_inada.jpg'>
+ 	<h3>Mizuho Inada</h3>
+ 	<p>Nothing was known of Mizuho's life before she was forced into the Battle Royale. It can be assumed that under great stress, Mizuho will resort to anything in order figure out how to save herself.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/G02_Yukie_Utsumi.jpg'>
+ 	<h3>Yukie Utsumi</h3>
+ 	<p>Yukie is an outgoing and warm girl who is best friend with Haruka Tanizawa. She is also friends with Chisato Matsui, Yuka Nakagawa, Satomi Noda and Yuko Sakaki. She has a crush on Shuya Nanahara and is also the female class representative.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/G03_Megumi_Eto.jpg'>
+ 	<h3>Megumi Eto</h3>
+ 	<p>Not much was known about Megumi's background other than her hobby, which was taking photographs with her Polaroid camera; Megumi took several photographs of Shinji and herself. In addition, she takes a photograph of Shuya, Noriko, and Yoshitoki Kuninobu on the bus right before the program begins. Megumi was a very cute and playful girl who cared deeply for her best friend and crush. Megumi's only known flaw was that she was too trusting of people.
+</p>
+</div>
+</div>
+<div class='row'>
+ <div class='col-md-4'>
+ 	<img class='profilepic' src='Images/G04_Sakura_Ogawa.jpg'>
+ 	<h3>Sakura Ogawa</h3>
+ 	<p>Not much about Sakura's background was known other than she was dating Kazuhiko Yamamoto. Sakura had a headstrong personality as seen when she refused the daypack for the game. She might have also been seen as controlling, at least when it came to her boyfriend. She hated the idea of murdering her classmates.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/G05_Izumi_Kanai.jpg'>
+ 	<h3>Izumi Kanai</h3>
+ 	<p>Not much is known about Izumi's background.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/G06_Yukiko_Kitano.jpg'>
+ 	<h3>Yukiko Kitano</h3>
+ 	<p>Not much was known about Yukiko's life before she was forced into the program. Yukiko has the same surname as the teacher Kitano and the teacher's daughter, Shiori Kitano but she is not related to either of the two.
+</p>
+</div>
+</div>
+
+
+<div id="students-males" class="container-fluid">
+ <h1>Male Students</h1>
+ <br/>
+ <div class='row'>
+ <div class='col-md-4'>
+ 	<img class='profilepic' src='Images/B01_Yoshio_Akamatsu.jpg'>
+ 	<h3>Yoshio Akamatsu</h3>
+ 	<p>Nothing about Yoshio's background was ever mentioned, although Yoshio seemed to have a very high level of paranoia.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/B02_Keita_iijima.jpg'>
+ 	<h3>Keita Iijima</h3>
+ 	<p>Keita is a basketball player for Class 3-B; Keita Iijima, Shinji Mimura, Hiroki Sugimura, Shuya Nanahara, and Kazuhiko Yamamoto competed against Class 3-A in one scene. Keita also has a habit of laughing at inappropriate times. Keita is friends with Shinji Mimura, Shuuya Nanahara, and Yutaka Sato.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/B03_Tatsumichi_Oki.jpg'>
+ 	<h3>Tatsumichi Oki</h3>
+ 	<p>Not much about Tatsumichi was known.
+</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/B04_Toshinori_Oda.jpg'>
+ 	<h3>Toshinori Oda</h3>
+ 	<p>None is known about Toshinori's past.
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/B05_Shogo_Kawada.jpg'>
+ 	<h3>Shogo Kawada</h3>
+ 	<p>Not much of Shogo's background was known, but he did compete in a Battle Royale with his class 3 years ago and loved a girl named Keiko Onuki, but killed her on instinct in order to survive.
+
+</p>
+</div>
+<div class='col-md-4'>
+ 	<img class='profilepic' src='Images/B6_Kazuo_Kiriyama.jpg'>
+ 	<h3>Kazuo Kiriyama</h3>
+ 	<p>Nothing about Kazuo's previous life was known, but it is a possibility that Kazuo could have been mute. What was known about Kazuo was his enigmatic, cold, emotionless, sadistic personality and psychopathy, with him taking delight in causing pain and suffering to other competitors and feeling no emotional attachment whatsoever to any of the people he murdered in cold-blood. Unlike the other competitors, Kazuo signed up for the competition Battle Royale simply for his own amusement.</p>
+	<p><i>
+	"Probably the one guy who signed up willingly for this shit."</i>
+	- Shogo Kawada.
+	</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="contact" class="container-fluid">
+  <h1>Contact</h1>
+  
+</div>
+</body>
+</html>

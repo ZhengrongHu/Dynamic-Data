@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta');
+
+body {
+	  text-align: center;
+      position: relative; 
+      background: #F07C77;
+      font-family: 'Futura', 'Ek Mukta', sans-serif;
+}
+
+/*background color: #F07C77*/
+.row {
+	width: 100%;
+	display: inline-block;
+}
+nav {
+	font-size: 25px;
+}
+.dropdown-menu {
+	background: black;
+}
+.dropdown-menu>li>a {
+	color: #F07C77;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 25px;
+}
+.navbar-inverse {
+    background-color: black;
+    border: none;
+    padding: 10px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    outline: 0;
+    //font-weight: 600;
+    font-style: italic;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #F07C77;
+	//font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    font-style: italic;
+    background: none;
+}
+
+#brlogo {
+  max-height: 70%;
+  max-width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+#brintro {
+	max-width: 100%;
+	max-height: 100vh;
+
+}
+#logo {
+	padding-top: 200px;
+	padding-bottom: 300px;
+	height:100vh;
+	color: #fff; 
+	position: relative;
+}
+#intro-left, #intro-middle, #intro-right {
+	padding: 10px;
+}
+
+#intro {
+	padding-top:80px;
+	color: #fff; 
+	text-align: center;
+	font-size: 17px;
+}
+#contact {
+	padding-top:80px;
+	height:500px;
+	text-align: center;
+	color: #fff; 
+}
+
+#students-females {
+	padding: 0;
+	padding-top:80px;
+	//height: 100vh;
+	color: #fff; 
+	//background-color: #00bcd4;
+
+}
+#students-males {
+	padding: 0;
+	padding-top:80px;
+	//height:500px;
+	color: #fff; 
+	//background-color: #009688;
+}
