@@ -9,7 +9,3 @@ Step 5: sudo pip install tweepy
 	sudo pip install emoji
 Step 6: python twitter_emoji.py
 Step 7: Enjoy
-
-Contact the developer if any questions:
--Carson Chen, Zhengrong Hu
--j.chen9@med.miami.edu, z.hu1@umiami.edu
